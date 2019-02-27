@@ -9,7 +9,7 @@ import java.util.Date;
 
 /**
  *
- * @author Alexander
+ * @author Alexander Legña  - Ivan Correa - SOFHARD
  */
 public class ParteComputadora {
 
@@ -19,7 +19,8 @@ public class ParteComputadora {
     private String detPart;
     private double prePart;
     private String modPart;
-    private Date fabPart = new Date();
+    private String fabPart;
+//    private Date fabPart = new Date();
 
     /**
      * @return the codPart
@@ -108,14 +109,14 @@ public class ParteComputadora {
     /**
      * @return the fabPart
      */
-    public Date getFabPart() {
+    public String getFabPart() {
         return fabPart;
     }
 
     /**
      * @param fabPart the fabPart to set
      */
-    public void setFabPart(Date fabPart) {
+    public void setFabPart(String fabPart) {
         this.fabPart = fabPart;
     }
     

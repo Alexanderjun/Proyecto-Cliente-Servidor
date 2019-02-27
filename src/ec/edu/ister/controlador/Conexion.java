@@ -13,7 +13,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Alexander
+ * @author Alexander Legña  - Ivan Correa - SOFHARD
  */
 public class Conexion {
     
@@ -21,7 +21,7 @@ public class Conexion {
     public Connection getConexion(){ 
         try{
             Class.forName("com.mysql.cj.jdbc.Driver"); // parametros de la base de datos
-            conexion = DriverManager.getConnection("jdbc:mysql://localhost/politicos","root","");  
+            conexion = DriverManager.getConnection("jdbc:mysql://localhost/sofhard","root","");  
             System.out.println("Conexion exitosa");
         } catch(SQLException e){
             System.err.println( e.toString() );
