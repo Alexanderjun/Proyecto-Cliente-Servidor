@@ -163,6 +163,18 @@ public class PartesComputadora extends Conexion {
         }
     }
     
+    public boolean consultaParteComputadora(){
+    
+        try {
+            
+        } catch (Exception e) {
+        }
+        
+        finally{
+        
+        }
+        return true;
+    }
     
             
     
