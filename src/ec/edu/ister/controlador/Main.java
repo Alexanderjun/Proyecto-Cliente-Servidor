@@ -3,19 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.ister.controlador;
 
-import ec.edu.ister.vista.SofHard;
-
+package ec.edu.ister.controlador; 
 /**
  *
- * @author Alexander Legña - Ivan Correa - SOFHARD
+ * @author Alexander Legña - Ivan Correa
  */
 public class Main {
-
-    static SofHard vista = new SofHard();
-
     public static void main(String[] args) {
-        vista.setVisible(true);
+        Acceso a = new Acceso();
+        a.FrmSofHard();
     }
 }

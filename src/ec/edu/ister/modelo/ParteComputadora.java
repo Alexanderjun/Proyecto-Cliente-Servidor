@@ -3,13 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.ister.modelo;
-
-import java.util.Date;
+package ec.edu.ister.modelo; 
 
 /**
  *
- * @author Alexander Legña  - Ivan Correa - SOFHARD
+ * @author Alexander Legña - Ivan Correa
  */
 public class ParteComputadora {
 
@@ -19,8 +17,8 @@ public class ParteComputadora {
     private String detPart;
     private double prePart;
     private String modPart;
-    private String fabPart;
-//    private Date fabPart = new Date();
+    private String fechRegPart;
+
 
     /**
      * @return the codPart
@@ -109,15 +107,15 @@ public class ParteComputadora {
     /**
      * @return the fabPart
      */
-    public String getFabPart() {
-        return fabPart;
+    public String getFechRegPart() {
+        return fechRegPart;
     }
 
     /**
      * @param fabPart the fabPart to set
      */
-    public void setFabPart(String fabPart) {
-        this.fabPart = fabPart;
+    public void setFechRegPart(String fabPart) {
+        this.fechRegPart = fabPart;
     }
     
     
